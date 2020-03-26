@@ -1,6 +1,6 @@
 var myName = "Abdulrazaq Khadijah";
 
-var myCourses = ['Html', 'css', 'javascript']
+var myCourses = ['Html', 'css', 'javascript', 'nodejs' ]
 
 document.getElementById("name").innerHTML ='<h1>' + myName; + '</h1>';
 document.getElementById("courses").innerHTML = " " + myCourses;
