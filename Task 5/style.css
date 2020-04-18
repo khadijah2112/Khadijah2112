@@ -1,0 +1,146 @@
+#menu{
+	background-color: white;
+}
+
+body{
+	background-color: black;
+}
+
+.color{
+background-color:#7eb9be; 
+margin:0px;		 
+}
+div{
+	margin:0px;
+}
+
+img{
+	height: 100px;
+	float: left;
+	margin-right: 5px;
+	border-radius: 100%;
+}
+
+ul li{
+	float: left;
+	list-style: none;
+	margin-right: 1em;
+	font-family: 'kulminoituvaRegular', helvetica, sans-serif;
+	font-size: 25px;
+	padding:12px;
+background-color: white;
+}
+
+li a{
+	float: left;
+	text-decoration: none;
+	color: #544738;
+}
+
+.left  a:hover{
+    -webkit-transition: All .5s ease;
+	-moz-transition:All .5s ease;
+	-o-transition:All .5s ease;
+
+
+	-webkit-transform: rotate(-10deg) scale(1.2);
+	-moz-transform: rotate(-10deg) scale(1.2);
+	-o-transform: rotate(-10deg) scale(1.2);
+	color: #7eb9be;
+}
+
+.right  a:hover{
+   -webkit-transition: All .5s ease;
+	-moz-transition:All .5s ease;
+	-o-transition:All .5s ease;
+
+
+	-webkit-transform: rotate(10deg) scale(1.2);
+	-moz-transform: rotate(10deg) scale(1.2);
+	-o-transform: rotate(10deg) scale(1.2);
+	color: #7eb9be;  
+}
+
+#about{
+font-size: 16px;
+font-family: helvetica, sans-serif;
+color: #FFFAF0;
+background: #000000;
+margin-bottom: 0px;
+}
+
+
+#Bio-data{
+	clear: left;
+	font-size: 16px;
+    font-family: helvetica, sans-serif;
+    margin-top: 0px;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.pl{
+	display: inline-block;
+	float: left;	
+	color: white;
+}
+
+#Contact{
+	clear: left;
+}
+
+label{
+	margin:5px;
+	font-size: 16px;
+	font-family: helvetica, sans-serif;
+    text-align: left;
+}
+
+input{
+box-sizing: border-box;
+width: 400px;
+border:3px solid #555;
+border-radius: 4px;
+margin-top:6px;
+margin-bottom: 16px;
+text-align: center;
+padding: 12px 20px;
+margin-left: 24px;
+}
+
+textarea{
+	vertical-align: middle;
+box-sizing: border-box;
+width: 400px;
+border:3px solid #555;
+border-radius: 4px;
+margin-top:6px;
+margin-bottom: 16px;
+text-align: center;
+padding: 12px 20px;
+
+}
+
+
+.form1{
+	background-color:#7eb9be; 
+	color: black;
+}	
+
+#form2{
+margin-left: 85px;
+}
+
+button{
+	background-color: #45CAF50;
+	border:none
+	color:white;
+	padding: 6px 20px;
+	text-decoration: none;
+	margin:0 80px;
+	cursor: pointer;
+}
